@@ -5,7 +5,7 @@
 ### * Algoritmo de eleição de líder: Bully Algorithm (election-algorithm)
 
 ## <img src="https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/30/000000/external-clipboard-advertising-kiranshastry-lineal-color-kiranshastry.png"/> Como rodar os códigos?
-### Para o de Lamport:
+### Para o de Lamport-lock:
 Use os seguintes comandos para executar:
 ```
 docker build -t lamport-lock .
@@ -15,6 +15,11 @@ Para conferir os logs rode:
 ```
 docker logs peer1
 ```
+#### Fontes Lamport-Lock:
+
+- Parte do algoritmo foi modificado de [Lamport Clocks by Connor Stein](https://connorwstein.github.io/Lamport-Clocks/).
+- Também foi utilizado o ChatGPT para gerar os Dockerfiles e um esqueleto para a comunicação usando sockets.
+- Para o relógio de Lamport, ele segue implementações padrões. Foi utilizada uma lock para tornar os acessos atômicos.
 
 ### Para o Bully Algorithm:
 ```
