@@ -21,6 +21,10 @@ docker logs peer1
 - Também foi utilizado o ChatGPT para gerar os Dockerfiles e um esqueleto para a comunicação usando sockets.
 - Para o relógio de Lamport, ele segue implementações padrões. Foi utilizada uma lock para tornar os acessos atômicos.
 
+#### Fontes Election-Algorithm:
+
+- Algoritmo foi retirado e modificado de [Bully Algorithm by Alperari]([https://github.com/alaattinyilmaz/bully](https://github.com/alperari/bully/tree/main)).
+
 ### Para o Bully Algorithm:
 ```
 python bullyAlgorithm.py numProcess numConnected numStarters
