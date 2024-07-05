@@ -1,1 +1,1 @@
-# MC714---Sistemas-Distribu-dos
+# MC714: Sistemas Distribuídos
