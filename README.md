@@ -22,6 +22,6 @@ docker logs peer1
 python bullyAlgorithm.py numProcess numConnected numStarters
 ```
 #### Sobre os argumentos:
-** numProcess: quantos nós existem no coinc
-** numConnected: quantos nós estão conectados no sistema
-** numStarters: quantos nós iniciam a eleição
+* numProcess: quantos nós existem no coinc
+* numConnected: quantos nós estão conectados no sistema
+* numStarters: quantos nós iniciam a eleição
