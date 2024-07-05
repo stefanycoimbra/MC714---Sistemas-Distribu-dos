@@ -1,7 +1,7 @@
 # MC714: Sistemas Distribuídos
 
 ## <img src="https://img.icons8.com/color/30/000000/task--v1.png"/> Algoritmos implementados
-### * Relógio de Lamport (lamport-lock)
+### * Relógio de Lamport com exclusão mútua (lamport-lock)
 ### * Algoritmo de eleição de líder: Bully Algorithm (election-algorithm)
 
 ## <img src="https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/30/000000/external-clipboard-advertising-kiranshastry-lineal-color-kiranshastry.png"/> Como rodar os códigos?
