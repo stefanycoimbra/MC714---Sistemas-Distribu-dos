@@ -23,7 +23,7 @@ docker logs peer1
 
 #### Fontes Election-Algorithm:
 
-- Algoritmo foi retirado e modificado de [Bully Algorithm by Alperari]([https://github.com/alaattinyilmaz/bully](https://github.com/alperari/bully/tree/main)).
+- Algoritmo foi retirado e modificado de [Bully Algorithm by Alperari](https://github.com/alaattinyilmaz/bully](https://github.com/alperari/bully/tree/main).
 
 ### Para o Bully Algorithm:
 ```
