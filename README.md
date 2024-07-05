@@ -10,7 +10,6 @@ Use os seguintes comandos para executar:
 ```
 docker build -t lamport-lock .
 docker compose up
-docker-compose ps
 ```
 Para conferir os logs rode:
 ```
