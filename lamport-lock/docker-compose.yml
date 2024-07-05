@@ -1,0 +1,34 @@
+services:
+  peer1:
+    image: lamport-lock
+    container_name: peer1
+    networks:
+      - lamport-net
+    environment:
+      - PEER_ID=1
+    ports:
+      - "5001:5001"
+
+  peer2:
+    image: lamport-lock
+    container_name: peer2
+    networks:
+      - lamport-net
+    environment:
+      - PEER_ID=2
+    ports:
+      - "5002:5002"
+
+  peer3:
+    image: lamport-lock
+    container_name: peer3
+    networks:
+      - lamport-net
+    environment:
+      - PEER_ID=3
+    ports:
+      - "5003:5003"
+
+networks:
+  lamport-net:
+    driver: bridge
