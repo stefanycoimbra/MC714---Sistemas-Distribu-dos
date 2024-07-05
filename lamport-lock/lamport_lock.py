@@ -218,7 +218,7 @@ def main():
     listener_thread = threading.Thread(target=lamport_lock.listen_for_messages, args=(peers[pid][1],))
     listener_thread.start()
     
-    time.sleep(1)  # Ensure listener thread starts first
+    time.sleep(1)  
     for i in range(1,20):
         lamport_lock.request_critical_section()
         lamport_lock.critical_section(i)
